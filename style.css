@@ -1,4 +1,4 @@
-body{
+.main-body{
     background-image: url('trees.png');
     background-size: cover; 
     display: column;
@@ -50,16 +50,85 @@ body{
     transition: opacity 1s;
 
 }
-@media(min-width:200px){
-    .image{
-        scale: 200%;
-        opacity: 1;
-    }
-}
-@media(min-width:210px){
+@media(min-width:800px){
     .image{
         scale: 0.1;
         opacity: 0;
     }
 }
+/* 000000000000000000000000000000000 Введение 0000000000000000000000000000000000000000*/
+.ins-body{
+    text-align: center;
+    justify-items: center;
+    background-color: rgb(1, 95, 37);
+    color: #F5F5DC;
+}
+.ins-body header{
+    display: inline-block;
+    border-bottom: 10px solid rgb(28, 51, 28);
+}
+.ins-body main{
+    width: 50%;
+    font-size: 21px;
+}
+.goal{
+    font-size: 25px;
+}
+.task{
+    position: absolute;
+    width:200px;
+    border:3px solid rgb(28, 51, 28);
+    border-radius: 16px;
+    height: 200px;
+    background-color: rgb(1, 95, 37);
+}
+.task-1{
+    left: 480px;
+}
+.card-1{
+    left: 480px;
+}
+.card-1:hover{
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+.task-2{
+    left:1190px;
+}
+.card-2{
+    left:1190px;
+}
+.card-2:hover{
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+.task-3{
+    left:950px;
+}
+.card-3{
+    left:950px;
+}
+.card-3:hover{
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+.task-4{
+    left:720px;
+}
+.card-4{
+    left:720px;
+}
+.card-4:hover{
+    opacity: 0;
+    transition: opacity 0.5s;
+}
 
+.card{
+    position: absolute;
+    width:200px;
+    border:3px solid rgb(28, 51, 28);
+    border-radius: 16px;
+    height: 200px;
+    z-index: 1;
+    background-color: rgb(1, 95, 37);
+}
